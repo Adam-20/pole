@@ -1,0 +1,53 @@
+jidla = ["rizek","hranolky","okurka"]
+print(jidla[0])
+print(jidla[1])
+print(jidla[2])
+
+matika = [4,1,3,1,2,3,5]
+soucet = sum(matika)
+print(soucet)
+pocetZnamek = len(matika)
+print(pocetZnamek)
+print("")
+
+for znamky in matika:
+    print(znamky)
+    
+zvire = ["pes","kocka","slon","zirafa"]
+print(zvire[1])
+print(zvire[3])
+
+cisla = [20,24,11]
+cisla.append(20)
+print(cisla)
+
+filmy = ["star wars", "harry potter", "vysehrad"]
+for i in filmy:
+    print(i)
+    
+cislo = [20,3,21]
+cisla[1] = 999
+print(cislo)
+
+
+randomCisla = [2,1,10,56,43]
+soucetCisel = sum(randomCisla)
+print(soucet)
+
+pole = [20,52,54,24,44]
+pocetPoli = len(pole)
+print(pocetPoli)
+
+skolniZnamky = [5,2,1,2,3,4,2]
+soucetSkolnichZnamek = sum(skolniZnamky)
+pocetSkolnichZnamek = len(skolniZnamky)
+prumer = soucetSkolnichZnamek/pocetSkolnichZnamek
+print(prumer)
+
+
+ovoce = ["banan","pomeranc","jablko"]
+if "banan" in ovoce:
+    print("banan tam je")
+
+
+
